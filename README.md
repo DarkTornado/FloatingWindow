@@ -18,6 +18,8 @@ Make a class named FloatingWindow and Copt+Paste.<br>
 FloatingWindow라는 클래스 하나 만들고 소스 복사+붙여넣기 하시고 사용하시면 됩니다.<br>
 
 
+### API
+
 - <b>new FloatingWindow(Context ctx);</b><br>
 ctx is context of app. You can use this or getApplicationContext().<br>
 ctx는 앱의 context값. this나 getApplicationContext()라고 적으면 됨.
