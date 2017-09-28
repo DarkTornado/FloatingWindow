@@ -3,7 +3,7 @@
 © 2017 Dark Tornado, All rights reserved.
 
 FloatingWindow is as similar as PopupWinow, but it can be used in serverce because it is made with WindowManager.<br>
-It needs android.permission.SYSTEM_ALERT_WINDOW.<br><br>
+It needs android.permission.SYSTEM_ALERT_WINDOW.<br>
 
 FloatingWindow는 WindowManager를 이용해서 만든 PopupWindow와 유사한 것입니다. 따라서, 서비스에서도 사용이 가능합니다.<br>
 android.permission.SYSTEM_ALERT_WINDOW 권한이 필요합니다.<br><br>
