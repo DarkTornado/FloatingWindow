@@ -9,6 +9,10 @@ FloatingWindow는 WindowManager를 이용해서 만든 PopupWindow와 유사한 
 android.permission.SYSTEM_ALERT_WINDOW 권한이 필요합니다.<br><br>
 
 
+If you want to use as Dialog, please reference <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>.<br>
+만약, 다이얼로그 사용하는 것을 원한다면, <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>을 참고해주세요.
+
+
 ### How to Use(?) 사용법(?)
 Make a class named FloatingWindow and Copt+Paste.<br>
 FloatingWindow라는 클래스 하나 만들고 소스 복사+붙여넣기 하시고 사용하시면 됩니다.<br>
