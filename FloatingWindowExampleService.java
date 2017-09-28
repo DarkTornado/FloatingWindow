@@ -1,4 +1,4 @@
-package com.darktornado.test;
+package com.example.FloawingWindowExample;
 
 import android.app.Notification;
 import android.app.Service;
