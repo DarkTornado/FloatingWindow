@@ -10,7 +10,7 @@ android.permission.SYSTEM_ALERT_WINDOW 권한이 필요합니다.<br><br>
 
 
 If you want to use as Dialog, please reference <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>.<br>
-만약, 다이얼로그 사용하는 것을 원한다면, <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>을 참고해주세요.
+만약, 다이얼로그처럼 사용하는 것을 원한다면, <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>을 참고해주세요.
 
 
 ### How to Use(?) 사용법(?)
