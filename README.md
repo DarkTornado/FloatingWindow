@@ -76,7 +76,7 @@ FloatingWindow의 위치 설정.
 Set FloatingWindow's size.<br>
 FloatingWindow의 크기 설정.
 
-- <b>.setHeight(int width);</b><br>
+- <b>.setWidth(int width);</b><br>
 Set FloatingWindow's width.<br>
 FloatingWindow의 가로 크기 설정.
 
