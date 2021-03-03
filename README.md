@@ -2,27 +2,23 @@
 
 © 2017 Dark Tornado, All rights reserved.
 
-FloatingWindow is as similar as PopupWinow, but it can be used in serverce because it is made with WindowManager.<br>
-It needs android.permission.SYSTEM_ALERT_WINDOW.<br>
+* Because `PopupWindow` cannot be used in Android `Service`, `FloatingWindow` is developed with `WindowManager`.
+* `FloatingWindow` needs `android.permission.SYSTEM_ALERT_WINDOW.`
+* If you want to use as Dialog, please reference [AlertWindow](https://github.com/DarkTornado/AlertWindow).
+<br><br>
+* 안드로이드 `Service`에서는 `PopupWindow`를 사용할 수 없기에, `WindowManager`를 기반으로 한 `FloatingWindow`를 만든거에요.
+* `FloatingWindow`는 `android.permission.SYSTEM_ALERT_WINDOW` 권한이 필요한거에요.
+* 만약, 다이얼로그처럼 사용하는 것을 원한다면, [AlertWindow](https://github.com/DarkTornado/AlertWindow)을 참고해주세요.
 
-FloatingWindow는 WindowManager를 이용해서 만든 PopupWindow와 유사한 것입니다. 따라서, 서비스에서도 사용이 가능합니다.<br>
-android.permission.SYSTEM_ALERT_WINDOW 권한이 필요합니다.<br><br>
-
-
-If you want to use as Dialog, please reference <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>.<br>
-만약, 다이얼로그처럼 사용하는 것을 원한다면, <a href="https://github.com/DarkTornado/AlertWindow">AlertWindow</a>을 참고해주세요.
-
-
-### How to Use(?) 사용법(?)
-Make a class named FloatingWindow and Copt+Paste.<br>
-FloatingWindow라는 클래스 하나 만들고 소스 복사+붙여넣기 하시고 사용하시면 됩니다.<br>
-
+### How to Use / 사용법
+* Make a class named `FloatingWindow` and Copy+Paste source code.
+* `FloatingWindow`라는 클래스 하나 만들고, 거기다가 소스 복사+붙여넣기해서 사용하면 되는거에요.
 
 ### API
 
 - <b>new FloatingWindow(Context ctx);</b><br>
-ctx is context of app. You can use this or getApplicationContext().<br>
-ctx는 앱의 context값. this나 getApplicationContext()라고 적으면 됨.
+`ctx` is Context of app. You can use this or getApplicationContext().<br>
+`ctx`는 앱의 Context값. this나 getApplicationContext()라고 적으면 됨.
 
 - <b>new FloatingWindow(Context ctx, boolean isIncludeEditText);</b><br>
 ctx is context of app. You can use this or getApplicationContext(). If isIncludeEditText is true, you can input text to EditText but you cannot touch outside of window's outside.<br>
