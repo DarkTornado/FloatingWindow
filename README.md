@@ -4,11 +4,11 @@
 
 * Because `PopupWindow` cannot be used in Android `Service`, `FloatingWindow` is developed with `WindowManager`.
 * `FloatingWindow` needs `android.permission.SYSTEM_ALERT_WINDOW.`
-* If you want to use as Dialog, please reference [AlertWindow](https://github.com/DarkTornado/AlertWindow).
+* If you want to use as Dialog, please see [AlertWindow](https://github.com/DarkTornado/AlertWindow) or [FakeDialog](https://github.com/DarkTornado/FakeDialog).
 <br><br>
 * 안드로이드 `Service`에서는 `PopupWindow`를 사용할 수 없기에, `WindowManager`를 기반으로 한 `FloatingWindow`를 만든거에요.
 * `FloatingWindow`는 `android.permission.SYSTEM_ALERT_WINDOW` 권한이 필요한거에요.
-* 만약, 다이얼로그처럼 사용하는 것을 원한다면, [AlertWindow](https://github.com/DarkTornado/AlertWindow)을 참고해주세요.
+* 만약, 다이얼로그처럼 사용하는 것을 원한다면, [AlertWindow](https://github.com/DarkTornado/AlertWindow) 또는 [FakeDialog](https://github.com/DarkTornado/FakeDialog)를 참고해주세요.
 
 ### How to Use / 사용법
 * Make a class named `FloatingWindow` and Copy+Paste source code.
